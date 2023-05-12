@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, render_template
+from flask_fontawesome import FontAwesome
 import os
 
 app = Flask(__name__)
